@@ -1,1 +1,177 @@
 [0m2021.08.20 21:23:56 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\Lakshitha Dhananjaya\Desktop\19000022' for client Visual Studio Code 1.59.1.[0m
+[0m2021.08.20 21:23:57 INFO  time: initialize in 0.39s[0m
+[0m2021.08.20 21:23:58 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.20 21:23:58 WARN  no build tool detected in workspace 'C:\Users\Lakshitha Dhananjaya\Desktop\19000022'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.20 21:23:58 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q1.scala[0m
+[0m2021.08.20 21:23:58 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q2.scala[0m
+[0m2021.08.20 21:24:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.20 21:24:02 INFO  time: code lens generation in 3.68s[0m
+[0m2021.08.20 21:24:02 INFO  time: code lens generation in 3.69s[0m
+[0m2021.08.20 21:24:02 INFO  time: code lens generation in 3.72s[0m
+[0m2021.08.20 21:24:02 INFO  time: code lens generation in 3.72s[0m
+[0m2021.08.20 21:24:04 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q3.scala[0m
+[0m2021.08.20 21:24:14 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+Aug 20, 2021 9:24:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+[0m2021.08.20 21:24:34 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q1.scala[0m
+Aug 20, 2021 9:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Aug 20, 2021 9:24:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+[0m2021.08.20 21:24:46 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q2.scala[0m
+[0m2021.08.20 21:24:58 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q3.scala[0m
+Aug 20, 2021 9:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+[0m2021.08.20 21:25:22 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+Aug 20, 2021 9:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Aug 20, 2021 9:26:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Aug 20, 2021 9:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+Aug 20, 2021 9:26:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+[0m2021.08.20 21:28:18 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+[0m2021.08.20 21:28:21 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+[0m2021.08.20 21:28:22 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+[0m2021.08.20 21:35:05 INFO  shutting down Metals[0m
+[0m2021.08.20 21:35:50 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\Lakshitha Dhananjaya\Desktop\19000022' for client Visual Studio Code 1.59.1.[0m
+[0m2021.08.20 21:35:51 INFO  time: initialize in 0.39s[0m
+[0m2021.08.20 21:35:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.20 21:35:52 WARN  no build tool detected in workspace 'C:\Users\Lakshitha Dhananjaya\Desktop\19000022'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.20 21:35:52 WARN  no build target for: C:\Users\Lakshitha Dhananjaya\Desktop\19000022\Q4.scala[0m
+[0m2021.08.20 21:35:53 INFO  shutting down Metals[0m
+[0m2021.08.20 21:35:54 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.20 21:35:57 ERROR text document: file:///C:/Users/Lakshitha%20Dhananjaya/Desktop/19000022/Q4.scala
+java.util.concurrent.CancellationException
+	at scala.meta.internal.pc.CompilerJobQueue.$anonfun$submit$2(CompilerJobQueue.scala:41)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.meta.internal.pc.CompilerJobQueue.onExecutor(CompilerJobQueue.scala:63)
+	at scala.meta.internal.pc.CompilerJobQueue.submit(CompilerJobQueue.scala:41)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue(CompilerAccess.scala:194)
+	at scala.meta.internal.pc.CompilerAccess.withInterruptableCompiler(CompilerAccess.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument(ScalaPresentationCompiler.scala:204)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:180)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1197)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:256)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.publishSynthetics(SyntheticsDecorationProvider.scala:74)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didOpen$6(MetalsLanguageServer.scala:986)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.08.20 21:35:58 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.20 21:35:58 ERROR text document: file:///C:/Users/Lakshitha%20Dhananjaya/Desktop/19000022/Q4.scala
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@53b9a92f rejected from java.util.concurrent.ScheduledThreadPoolExecutor@56193f73[Shutting down, pool size = 1, active threads = 0, queued tasks = 3, completed tasks = 7]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:326)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:549)
+	at java.util.concurrent.Executors$DelegatedScheduledExecutorService.schedule(Executors.java:732)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$3(CompilerAccess.scala:227)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue(CompilerAccess.scala:212)
+	at scala.meta.internal.pc.CompilerAccess.withInterruptableCompiler(CompilerAccess.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument(ScalaPresentationCompiler.scala:204)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:180)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1197)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1507)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1505)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.08.20 21:35:58 ERROR text document: file:///C:/Users/Lakshitha%20Dhananjaya/Desktop/19000022/Q4.scala
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4ae803e1 rejected from java.util.concurrent.ScheduledThreadPoolExecutor@56193f73[Shutting down, pool size = 1, active threads = 0, queued tasks = 3, completed tasks = 7]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:326)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:549)
+	at java.util.concurrent.Executors$DelegatedScheduledExecutorService.schedule(Executors.java:732)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$3(CompilerAccess.scala:227)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue(CompilerAccess.scala:212)
+	at scala.meta.internal.pc.CompilerAccess.withInterruptableCompiler(CompilerAccess.scala:90)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument(ScalaPresentationCompiler.scala:204)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:180)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1197)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1507)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1505)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.08.20 21:35:58 INFO  time: code lens generation in 5.72s[0m
+[0m2021.08.20 21:35:58 INFO  time: code lens generation in 5.72s[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@47a96878 rejected from java.util.concurrent.ThreadPoolExecutor@4f6fd7ce[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 59]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@6c61eced rejected from java.util.concurrent.ThreadPoolExecutor@4f6fd7ce[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 59]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

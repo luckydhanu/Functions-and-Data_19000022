@@ -1,75 +1,32 @@
-//19000022
-object Bank extends App {
+object Q4{
 
-    var bank : List[Account] = List( new Account("Farzan" , 1 , -1000) , new Account("Frosty" , 2 , 2000) )
+  val acc1= new Bankacc("Hansana",12345,-2000.00)
+  val acc2= new Bankacc("Dula",23456,-3000.00)
+  val acc3= new Bankacc("Bashi",34567,10000.00)
+  val acc4= new Bankacc("Bimsara",45678,3000.00)
 
-    val find = ( n : Int , b : List[Account]) => b.filter( x => x.accountNumber.equals( n ))
+  var bank:List[Bankacc]=List(acc1,acc2,acc3,acc4)
 
-    val overdraft = ( b : List[Account] ) => b.filter( x => x.balance < 0)
-
-    val balance = ( b: List[Account] ) => b.map( x => (x,x.balance) ).reduce( (a , c) => ( c._1 , a._2 + c._2) )
-
-    val interest = ( b : List[Account] ) => b.map( x => {
-        x.balance match {
-            case a if a >= 0 => x deposit x.balance * 0.05
-            case _ => x withdraw Math.abs(x.balance) * 0.01
-
-        }
-        x
-    })
+  val overdraft = bank.filter(x=>x.balance<0)
+  val balance = bank.map((x)=>(x.balance)).reduce((x,y)=>(x+y))
+  val interest = (b:List[Bankacc])=>b.map((x) => (x.nic,x.accnumber,if(x.balance>0)  (x.balance+(x.balance*0.5)) else (x.balance+(x.balance*0.1)) ))
 
 
-    println("bank " + bank )
-    println()
-    println("find " + find( 2 , bank) )
-    println()
-    println("overdraft " + overdraft( bank ) )
-    println()
-    println("balance " + balance( bank )._2 )
-    println()
-
-    bank = interest( bank )
-
-    println("bank " + bank )
-    println()
-    println("balance " + balance( bank )._2 )
-    println()
+  print("The accounts with negative balance:")
+  println(overdraft)
+  print("The sum of all accounts:")
+  println(balance)
+  print("The final balnce of all accounts:")
+  println(interest(bank))
 
 }
-// object Q4{
 
-//     var bank : List[Account] = List( new Account("Farzan" , 1 , -1000) , new Account("Frosty" , 2 , 2000) )
+class Bankacc(id:String,n:Int,b:Double){
 
-//     val find = ( n : Int , b : List[Account]) => b.filter( x => x.accountNumber.equals( n ))
+  var nic:String=id
+  var accnumber:Int =n
+  var balance:Double =b
 
-//     val overdraft = ( b : List[Account] ) => b.filter( x => x.balance < 0)
+  override def toString = "["+nic+":"+accnumber+":"+balance+"]"
 
-//     val balance = ( b: List[Account] ) => b.map( x => (x,x.balance) ).reduce( (a , c) => ( c._1 , a._2 + c._2) )
-
-//     val interest = ( b : List[Account] ) => b.map( x => {
-//         x.balance match {
-//             case a if a >= 0 => x deposit x.balance * 0.05
-//             case _ => x withdraw Math.abs(x.balance) * 0.01
-
-//         }
-//         x
-//     })
-
-
-//     println("bank " + bank )
-//     println()
-//     println("find " + find( 2 , bank) )
-//     println()
-//     println("overdraft " + overdraft( bank ) )
-//     println()
-//     println("balance " + balance( bank )._2 )
-//     println()
-
-//     bank = interest( bank )
-
-//     println("bank " + bank )
-//     println()
-//     println("balance " + balance( bank )._2 )
-//     println()
-
-// }
+}
